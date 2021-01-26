@@ -1,4 +1,3 @@
-
 .nav {
   display: flex;
   justify-content: space-around;
@@ -20,15 +19,14 @@
       }
     }
 
-    &_link {
+    &__link {
       position: relative;
       display: inline-block;
       
       text-decoration: none;
       color: inherit;
-
       transition: color 1s ease;
-      
+
       &--active {
         color: $main-color;
         &::after {
@@ -38,15 +36,11 @@
       
       &:hover {
         color: $main-color;
-        
       }
     
       &:focus::after {
         @include underline;
       }
-      
     }
   }
-
-  
 }
