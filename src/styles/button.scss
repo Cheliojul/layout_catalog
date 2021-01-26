@@ -14,6 +14,8 @@
   color: $secondary-color;
   background-color: $main-color;
 
+  transition: color 1s, background-color 1s ease;
+
   &:hover {
     color: $main-color ;
     background-color: $secondary-color;
