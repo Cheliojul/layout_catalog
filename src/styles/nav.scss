@@ -26,7 +26,9 @@
       
       text-decoration: none;
       color: inherit;
-    
+
+      transition: color 1s ease;
+      
       &--active {
         color: $main-color;
         &::after {
@@ -36,7 +38,7 @@
       
       &:hover {
         color: $main-color;
-        // transition: color 1s ease;
+        
       }
     
       &:focus::after {
