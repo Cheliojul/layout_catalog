@@ -1,13 +1,11 @@
 
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
-
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  gap: 50px 48px;
+ 
+  justify-content: center;
+  place-items: center;
   padding: 0 40px;
-  
-}
-@media screen and (min-width:1200px) {
-  .catalog {
-    padding: 0 128px;
-  }
+  margin: 0 auto;
 }
